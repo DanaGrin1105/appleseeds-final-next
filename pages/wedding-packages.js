@@ -1,5 +1,10 @@
+import Header from '../components/header'
+
 export default function WeddingPackagesPage() {
     return (
-        <h1>Welcome to Wedding Packages Page!</h1>
-    ) 
+        <>
+            <Header />
+            <h1>Welcome to Wedding Packages Page!</h1>
+        </>
+    )
 }
