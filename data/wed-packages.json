@@ -1,27 +1,95 @@
 [
-    {
-      "id": "wed-pack-1",
-      "name": "Fast Track",
-      "imgUrl": "tofill.jpg",
-      "description": "Fast and hassle free, the wedding ceremony to be held in your hotel room.",
-      "price": "$ 650",
-      "link": "more-info-url-link"
-    },
-    {
-      "id": "wed-pack-2",
-      "name": "Simplicity Special",
-      "imgUrl": "tofill.jpg",
-      "description": "Keep it pure and simple.",
-      "price": "$ 750",
-      "link": "more-info-url-link"
-    },
-    {
-      "id": "wed-pack-3",
-      "name": "Signature",
-      "imgUrl": "tofill.jpg",
-      "description": "Our best seller, guarantees unforgettable memories.. ",
-      "price": "$ 950",
-      "link": "more-info-url-link"
+  {
+    "id": "wed-pack-1",
+    "name": "Fast Track",
+    "imgUrl": "tofill.jpg",
+    "description": "Fast and hassle free, the wedding ceremony to be held in your hotel room.",
+    "price": "$ 650",
+    "moreInfo": {
+      "includes": [
+        "Unlimited consultation with your Seychelles wedding planner",
+        "A  registrar to conduct the ceremony",
+        "2 witnesses (complimentary)",
+        "Your wedding certificate",
+        "Apostille by the Supreme Court of Seychelles",
+        "DHL Shipping",
+        "Handling and delivering of all paper work by our team"
+      ],
+      "provide": [
+        "A copy of your birth certificates",
+        "A decree of divorce (if one of you has been divorced)",
+        "Death certificate of the former spouse if one of you is a widow/widower",
+        "Legal proof in case of a name that have been changed",
+        "Copies of the first 2 pages of your valid passports",
+        "All documents should be received 12 days prior of the wedding date"
+      ]
     }
-  ]
-  
+  },
+  {
+    "id": "wed-pack-2",
+    "name": "Simplicity Special",
+    "imgUrl": "tofill.jpg",
+    "description": "Keep it pure and simple.",
+    "price": "$ 750",
+    "moreInfo": {
+      "includes": [
+        "Unlimited consultation with your Seychelles wedding planner",
+        "A  registrar to conduct the ceremony",
+        "2 witnesses (complimentary)",
+        "1 bottle of sparkling wine",
+        "A wedding aisle",
+        "A tropical bridal bouquet",
+        "1 boutonniere for the groom",
+        "A seashell ring holder",
+        "Transportation to your wedding ceremony and back to the hotel",
+        "Your wedding certificate",
+        "Apostille by the Supreme Court of Seychelles",
+        "DHL Shipping",
+        "Handling and delivering of all paper work by our team"
+      ],
+      "provide": [
+        "A copy of your birth certificates",
+        "A decree of divorce (if one of you has been divorced)",
+        "Death certificate of the former spouse if one of you is a widow/widower",
+        "Legal proof in case of a name that have been changed",
+        "Copies of the first 2 pages of your valid passports",
+        "All documents should be received 12 days prior of the wedding date"
+      ]
+    }
+  },
+  {
+    "id": "wed-pack-3",
+    "name": "Signature",
+    "imgUrl": "tofill.jpg",
+    "description": "Our best seller, guarantees unforgettable memories.. ",
+    "price": "$ 950",
+    "moreInfo": {
+      "includes": [
+        "Unlimited consultation with your Seychelles wedding planner",
+        "A  registrar to conduct the ceremony",
+        "2 witnesses (complimentary)",
+        "1 bottle of sparkling wine",
+        "A wedding cake",
+        "A  bamboo aisle / a flower arch",
+        "A tropical bridal bouquet",
+        "1 boutonniere for the groom",
+        "A seashell ring holder",
+        "A professional photographer for the wedding",
+        "Photoshoot after the ceremony",
+        "Transportation to your wedding ceremony and back to the hotel",
+        "Your wedding certificate",
+        "Apostille by the Supreme Court of Seychelles",
+        "DHL Shipping",
+        "Handling and delivering of all paper work by our team"
+      ],
+      "provide": [
+        "A copy of your birth certificates",
+        "A decree of divorce (if one of you has been divorced)",
+        "Death certificate of the former spouse if one of you is a widow/widower",
+        "Legal proof in case of a name that have been changed",
+        "Copies of the first 2 pages of your valid passports",
+        "All documents should be received 12 days prior of the wedding date"
+      ]
+    }
+  }
+]

@@ -1,6 +1,8 @@
+import Link from 'next/link';
+
 class Card extends React.Component {
     render() {
-        const { imgUrl, title, text, price, link } = this.props;
+        const { imgUrl, title, text, price, link, pageLink, path } = this.props;
         return (
             <div className="card">
                 <img src={imgUrl} />
@@ -9,22 +11,12 @@ class Card extends React.Component {
                     <p>{text}</p>
                 </div>
                 <h4>From: {price}</h4>
-                <button type="button">{link}</button>
+                <Link href={`${path}/${pageLink}`} as={`${path}/${link}`}>
+                    <a>More info</a>
+                </Link>
             </div>
         );
     }
 }
 
-class Cards extends React.Component {
-    render() {
-        return (
-            <div className="main">
-                <Card imgUrl={"img-fast-track.jpg"} title={"Fast Track"} text={"fast fast fast"} price={"$ 550"} link={"link"} />
-                <Card imgUrl={"img-simplicity.jpg"} title={"Simplicity Special"} text={"simple simple simple"} price={"$ 750"} link={"link"} />
-                <Card imgUrl={"img-signature.jpg"} title={"Signature"} text={"signature signature signature"} price={"$ 950"} link={"link"} />
-            </div>
-        );
-    }
-}
-
-export default Cards
+export default Card
