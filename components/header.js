@@ -17,7 +17,7 @@ class Header extends React.Component {
             </li>
             <li>
             <Link href="/accommodation">
-                <a>Accommodation</a>
+                <a>Hotels</a>
               </Link>
             </li>
             <li>

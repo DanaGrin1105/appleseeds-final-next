@@ -5,9 +5,9 @@ class Title extends React.Component {
   render() {
     return (
       <div className="title">
-        <h1>Make your dream come true</h1>
+        <h1>Make your dream come true...</h1>
         <p className="text-title">
-          bla bla bla bla bla bla bla bla bla bla bla bla bla
+       blah blah
           </p>
         <Multistep showNavigation={true} steps={[{ name: '1', component: <div>step1</div> }, { name: '2', component: <div>step2</div> }, { name: '3', component: <div>step3</div> }]}/>
       </div>

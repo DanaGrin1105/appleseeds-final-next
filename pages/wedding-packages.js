@@ -1,10 +1,11 @@
-import Header from '../components/header'
+import Header from '../components/header';
+import PageTitle from '../components/page-title'
 
 export default function WeddingPackagesPage() {
     return (
         <>
             <Header />
-            <h1>Welcome to Wedding Packages Page!</h1>
+            <PageTitle title={"Wedding Packages"} imgUrl={"img-wed-setup"} subtitle={"Select Your Wedding Package"}/>
         </>
     )
 }
