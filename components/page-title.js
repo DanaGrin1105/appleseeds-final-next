@@ -6,7 +6,6 @@ class PageTitle extends React.Component {
             <div className="page-title">
                 <h1>{title}</h1>
                 <img src={imgUrl} />
-                <h2>{subtitle}</h2>
             </div>
         );
     }

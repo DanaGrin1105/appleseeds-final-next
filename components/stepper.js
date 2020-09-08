@@ -12,7 +12,7 @@ const StepOne = ({ setStepChoice }) => {
   return (
     <form className="step step-one">
       <p>Choose your wedding package:</p>
-      <div className="radio-list">
+      <div className="card-list-wrapper">
         {wedPackages.map((wedPackage) => {
           const { id, name, imgUrl, description, price, link } = wedPackage;
 
@@ -51,7 +51,7 @@ const StepTwo = ({ setStepChoice }) => {
   return (
     <form className="step step-two">
       <p>Choose your hotel:</p>
-      <div className="radio-list">
+      <div className="card-list-wrapper">
         {hotels.map((hotel) => {
           const { id, name, imgUrl, description, price, link } = hotel;
 
@@ -104,12 +104,18 @@ const StepThree = ({ setContactForm, info }) => {
       });
   }
   return (
-    <form className="step step-three" onSubmit={handleSubmit}>
-      <input name="name" type="text" onChange={(e) => handleInputChange(e)} />
-      <input name="email" type="email" onChange={(e) => handleInputChange(e)} />
-      <textarea name="message" type="text" onChange={(e) => handleInputChange(e)} />
-      <button type="submit">Send</button>
-    </form>
+    <div>
+      <p></p>
+      <form className="step step-three" onSubmit={handleSubmit}>
+        <label forHtml="name">Please enter your name</label>
+        <input name="name" type="text" onChange={(e) => handleInputChange(e)} />
+        <label forHtml="name">Please enter your email</label>
+        <input name="email" type="email" onChange={(e) => handleInputChange(e)} />
+        <label forHtml="name">Please enter your message</label>
+        <textarea name="message" type="text" onChange={(e) => handleInputChange(e)} />
+        <button type="submit">Send</button>
+      </form>
+    </div>
   );
 }
 
