@@ -13,10 +13,10 @@ class Card extends React.Component {
                 </div>
                 <h4>From: {price}</h4>
                 {hasOnlyLink
-                    ? <a href={link}>More info</a>
+                    ? <a className="more-info" href={link}>More info</a>
                     : (
                         <Link href={`${path}/${pageLink}`} as={`${path}/${link}`}>
-                            <a>More info</a>
+                            <a className="more-info">More info</a>
                         </Link>
                     )}
             </div>

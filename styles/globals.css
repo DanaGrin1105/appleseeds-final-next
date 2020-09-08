@@ -63,9 +63,7 @@ nav {
   .navbar {
     flex-direction: column;
   }
-  .card-list-item {
-    
-  }
+  
 }
 
 .navbar {
@@ -122,12 +120,22 @@ nav {
 
 .card-list-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
-
+.card-list-item {
+    display: flex;
+}
 .contact-form {
   display: flex;
   justify-content: space-evenly;
+}
+
+.more-info {
+  width: 130px;
+  background: lightblue;
+  display: block;
+  padding: 15px 30px;
+  text-align: center;
 }
 
 form.step.step-three {
