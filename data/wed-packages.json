@@ -2,7 +2,7 @@
   {
     "id": "wed-pack-1",
     "name": "Fast Track",
-    "imgUrl": "tofill.jpg",
+    "imgUrl": "fast-track-min.jpg",
     "description": "Fast and hassle free, the wedding ceremony to be held in your hotel room.",
     "price": "$ 650",
     "moreInfo": {
@@ -28,7 +28,7 @@
   {
     "id": "wed-pack-2",
     "name": "Simplicity Special",
-    "imgUrl": "tofill.jpg",
+    "imgUrl": "simplicity-min.jpg",
     "description": "Keep it pure and simple.",
     "price": "$ 750",
     "moreInfo": {
@@ -60,7 +60,7 @@
   {
     "id": "wed-pack-3",
     "name": "Signature",
-    "imgUrl": "tofill.jpg",
+    "imgUrl": "signature-min.jpg",
     "description": "Our best seller, guarantees unforgettable memories.. ",
     "price": "$ 950",
     "moreInfo": {

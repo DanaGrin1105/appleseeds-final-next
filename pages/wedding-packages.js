@@ -8,7 +8,7 @@ export default function WeddingPackagesPage() {
         <>
             <Header />
             <PageTitle title={"Our Wedding Packages"}/>
-            <div className="wed-packages-wrap">
+            <div className="card-list-wrapper">
                 {weddingPackages.map((weddingPackage) => {
                     const { id, imgUrl, name, description, price, path } = weddingPackage;
                     return (

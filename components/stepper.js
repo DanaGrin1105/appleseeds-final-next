@@ -30,7 +30,9 @@ const StepOne = ({ setStepChoice }) => {
                   title={name}
                   text={description}
                   price={price}
-                  link={link}
+                  link={id}
+                  path="/wedding-packages"
+                  pageLink="[wedPackage]"
                   key={id}
                 />
               </label>

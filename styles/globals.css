@@ -36,16 +36,34 @@ nav {
 }
 
 .welcome {
-  z-index: 1;
-  position: relative;
-  padding-top: 40px;
-  font-size: 14px;
+  color: white;
+  font-family: 'Sacramento', cursive;
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+.welcome-text {
+  margin: 20px;
 }
 
 .start {
-  z-index: 1;
-  position: relative;
-  font-family: 'Sacramento', cursive;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card {
+  width: 30vw;
+  border: 1px solid;
+  padding: 10px;
+}
+
+.card-list-wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer {
@@ -54,6 +72,5 @@ nav {
   position: fixed;
   z-index: 1;
   bottom: 0;
-  font-family: 'Sacramento', cursive;
   color: #ffffb3;
 }

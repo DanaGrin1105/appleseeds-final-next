@@ -8,7 +8,7 @@ export default function HotelsPage() {
         <>
             <Header />
             <PageTitle title={"Our Wedding & Honeymoon Hotels Suggestions"}/>
-            <div className="hotels-page-wrap">
+            <div className="card-list-wrapper">
                 {hotels.map((hotel) => {
                     const { id, imgUrl, name, description, price, link } = hotel;
                     return (

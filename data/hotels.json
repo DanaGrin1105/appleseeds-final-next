@@ -2,7 +2,7 @@
     {
       "id": "hotel-1",
       "name": "tofill hotel name-1",
-      "imgUrl": "tofill.jpg",
+      "imgUrl": "four-seasons-resort.jpg",
       "description": "blah blah 1",
       "price": "500",
       "link": "https://www.google.com"
@@ -10,14 +10,14 @@
     {
       "id": "hotel-2",
       "name": "tofill hotel name-2",
-      "imgUrl": "tofill.jpg",
+      "imgUrl": "kempinsky.jpg",
       "description": "blah blah 2",
       "price": "600"
     },
     {
       "id": "hotel-3",
       "name": "tofill hotel name-3",
-      "imgUrl": "tofill.jpg",
+      "imgUrl": "constance.jpg",
       "description": "blah blah 3",
       "price": "300"
     }
