@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import weddingPackages from '../../data/wed-packages.json'
 
-const Wedpackage = () => {
+const Wedpackage = ({ weddingPackages }) => {
   const router = useRouter()
   const { wedPackage } = router.query;
   console.log(wedPackage)
@@ -22,6 +22,24 @@ const Wedpackage = () => {
           </ul>
       </div>
   )
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      weddingPackages
+    }
+  }
+}
+
+export async function getStaticPaths() {
+  const paths = weddingPackages.map((wedPack) => ({
+    params: { wedPackage: wedPack.id }
+  }));
+  return {
+    paths,
+    fallback: false
+  };
 }
 
 export default Wedpackage
