@@ -26,6 +26,47 @@ nav {
   padding-top: 30px;
   color: #ffdd99;
 }
+.hamburger {
+  display:none;
+}
+@media only screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    position: relative;
+    z-index: 1;
+    font-size: 30px;
+    color: #8bb6e2;
+  }
+  .menu-nav {
+    background-color: lightseagreen;
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    transition-property: all;
+    transition-duration: 2s;
+    padding-left: 15px;
+    font-size: 20px;
+  }
+
+  .hide-menu {
+    transform: translatex(-200px);
+  }
+
+  li {
+    height: 50px;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+  .card-list-item {
+    
+  }
+}
 
 .navbar {
   margin: 0;
@@ -52,19 +93,21 @@ nav {
   justify-content: flex-end;
 }
 
-.start button { 
+.start button {
   font-family: 'Sacramento', cursive;
   font-size: 25px;
   font-weight: bold;
   color: #604020;
-  margin:20px;
+  margin: 20px;
   border-radius: 25px;
   border-color: azure;
   background: #bbe4d3;
 }
+
 .page-title {
-  margin:auto;
+  margin: auto;
 }
+
 .card img {
   width: 100%;
   height: 200px;
@@ -80,6 +123,16 @@ nav {
 .card-list-wrapper {
   display: flex;
   justify-content: space-between;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form.step.step-three {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer {

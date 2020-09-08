@@ -17,7 +17,7 @@ const StepOne = ({ setStepChoice }) => {
           const { id, name, imgUrl, description, price, link } = wedPackage;
 
           return (
-            <React.Fragment key={id}>
+            <div key={id} className="card-list-item">
               <input
                 type="radio"
                 id={id}
@@ -36,7 +36,7 @@ const StepOne = ({ setStepChoice }) => {
                   key={id}
                 />
               </label>
-            </React.Fragment>
+            </div>
           );
         })}
       </div>
@@ -56,7 +56,7 @@ const StepTwo = ({ setStepChoice }) => {
           const { id, name, imgUrl, description, price, link } = hotel;
 
           return (
-            <React.Fragment key={id}>
+            <div key={id} className="card-list-item">
               <input
                 type="radio"
                 id={id}
@@ -73,7 +73,7 @@ const StepTwo = ({ setStepChoice }) => {
                   key={id}
                 />
               </label>
-            </React.Fragment>
+            </div>
           );
         })}
       </div>
@@ -104,8 +104,8 @@ const StepThree = ({ setContactForm, info }) => {
       });
   }
   return (
-    <div>
-      <p></p>
+    <div className="contact-form">
+      <p>Some text to get people to fill the form</p>
       <form className="step step-three" onSubmit={handleSubmit}>
         <label forHtml="name">Please enter your name</label>
         <input name="name" type="text" onChange={(e) => handleInputChange(e)} />
@@ -157,7 +157,7 @@ class EventPlannerStepper extends React.Component {
     console.log(this.state);
     return (
       <>
-        <Stepper showNavigation={true} steps={steps} />
+        <Stepper className="stepper" showNavigation={true} steps={steps} />
       </>
     );
   }

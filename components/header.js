@@ -1,9 +1,21 @@
 import Link from 'next/link';
 
 class Header extends React.Component {
+  state = {
+    isHambugerOpen: false
+  }
+  toggleMenu  = () => {
+    this.setState({ isHambugerOpen: !this.state.isHambugerOpen })
+  } 
+
+
     render() {
       return (
-        <nav>
+        <>
+        <div className="hamburger" onClick={ this.toggleMenu } >
+          =
+        </div>
+        <nav className={`menu-nav ${ this.state.isHambugerOpen ? '' : 'hide-menu' }`}>
           <ul className="navbar">
             <li>
               <Link href="/">
@@ -42,6 +54,7 @@ class Header extends React.Component {
             </li>
           </ul>
         </nav>
+        </>
       );
     }
   }
