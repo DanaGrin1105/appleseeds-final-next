@@ -138,11 +138,11 @@ class EventPlannerStepper extends React.Component {
         component: <StepOne setStepChoice={this.setStepChoice} />
       },
       {
-        name: "Choose Your Accommodation",
+        name: "Choose Your Hotel",
         component: <StepTwo setStepChoice={this.setStepChoice} />
       },
       {
-        name: "Fill out form",
+        name: "Get a Quote",
         component: <StepThree setContactForm={this.setContactForm} info={this.state} />
       }
     ];

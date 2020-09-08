@@ -5,23 +5,21 @@
       "imgUrl": "tofill.jpg",
       "description": "blah blah 1",
       "price": "500",
-      "link": "more-info-url-link"
+      "link": "https://www.google.com"
     },
     {
       "id": "hotel-2",
       "name": "tofill hotel name-2",
       "imgUrl": "tofill.jpg",
       "description": "blah blah 2",
-      "price": "600",
-      "link": "more-info-url-link"
+      "price": "600"
     },
     {
       "id": "hotel-3",
       "name": "tofill hotel name-3",
       "imgUrl": "tofill.jpg",
       "description": "blah blah 3",
-      "price": "300",
-      "link": "more-info-url-link"
+      "price": "300"
     }
   ]
   

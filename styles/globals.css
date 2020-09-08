@@ -20,8 +20,10 @@ h1, h2, h3 {
 nav {
   position: relative;
   z-index: 1;
-  font-family: 'Sacramento', cursive;
-  font-size: 30px;
+  /* font-family: 'Sacramento', cursive; */
+  font-size: 18px;
+  font-style: italic;
+  padding-top: 30px;
   color: #ffdd99;
 }
 

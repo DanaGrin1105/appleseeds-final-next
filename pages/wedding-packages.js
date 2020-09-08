@@ -7,7 +7,7 @@ export default function WeddingPackagesPage() {
     return (
         <>
             <Header />
-            <PageTitle title={"Wedding Packages"} imgUrl={"img-wed-setup"} subtitle={"Select Your Wedding Package"} />
+            <PageTitle title={"Our Wedding Packages"}/>
             <div className="wed-packages-wrap">
                 {weddingPackages.map((weddingPackage) => {
                     const { id, imgUrl, name, description, price, path } = weddingPackage;
